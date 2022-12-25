@@ -1,0 +1,17 @@
+{
+	"name": "ds_adfdb001",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "l_adfsqlserver001",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "emp"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
